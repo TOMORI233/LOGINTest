@@ -1,2 +1,2 @@
 <!--pages/homepage/homepage.wxml-->
-<text>hello world!</text>
+<text style="display: block; text-align:center">hello world!</text>

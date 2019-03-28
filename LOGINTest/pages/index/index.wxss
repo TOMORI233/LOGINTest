@@ -1,33 +1,32 @@
 /**index.wxss**/
-.loginimg {
+.loginImg {
   width: 90%;
   height: 160px;
   border-radius: 5px;
 }
 
-.titlestyle {
-  margin-top: 10px;
+.titleStyle {
+  margin: 15px;
   font-size: large;
   font-weight: 500;
 }
 
-.logincontainer {
-  margin-top: 10px;
-  width: 90%;
+.loginContainer {
+  width: 85%;
 }
 
-.loginline {
+.loginLine {
   display: flex;
   height: 40px;
   align-items: center;
 }
 
-.accpwdimg {
+.accpwdImg {
   height: 24px;
   width: 24px;
 }
 
-.accpwdtext {
+.accpwdText {
   padding-left: 5px;
   padding-right: 10px;
 }
@@ -38,7 +37,7 @@
   height: 3rpx;
 }
 
-.loginbutton {
+.loginButton {
   margin-top: 20px;
   width: 90%;
   font-size: 90%;

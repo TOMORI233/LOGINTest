@@ -1,19 +1,19 @@
 <!--index.wxml-->
 <view class="container">
-  <image src="../../image/welcome.jpg" class= "loginimg"></image>
-  <view class="titlestyle">{{title}}</view>
-  <view class="logincontainer">
-    <view class="loginline">
-      <image src="../../image/account.jpg" class="accpwdimg"></image>
-      <view class="accpwdtext">账号</view>
-      <input name="userName" placeholder="{{accplaceholder}}" />
+  <image src="/image/welcome.jpg" class= "loginImg"></image>
+  <view class="titleStyle">{{title}}</view>
+  <view class="loginContainer">
+    <view class="loginLine">
+      <image src="/image/account.jpg" class="accpwdImg"></image>
+      <view class="accpwdText">账号</view>
+      <input placeholder="{{namePlaceholder}}" bindinput="username"/>
     </view>
     <view class="divLine"></view>
-    <view class="loginline">
-      <image src="../../image/password.jpg" class="accpwdimg"></image>
-      <view class="accpwdtext">密码</view>
-      <input name="userPassword" placeholder="{{pwdplaceholder}}" password="true" />
+    <view class="loginLine">
+      <image src="/image/password.jpg" class="accpwdImg"></image>
+      <view class="accpwdText">密码</view>
+      <input placeholder="{{pwdPlaceholder}}" password="true" bindinput="password"/>
     </view>
   </view>
-  <button type="primary" bindtap="tologin" class="loginbutton">登 录</button>
+  <button type="primary" bindtap="toLogin" class="loginButton">登 录</button>
 </view>
